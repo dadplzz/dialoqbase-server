@@ -100,7 +100,7 @@ export const AppearanceForm = ({
       >
         <input
           type="text"
-          className="mt-1 block w-full shadow-sm sm:text-sm focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md"
+          className="mt-1 block w-full shadow-sm sm:text-sm focus:ring-black focus:border-black border-gray-300 rounded-md"
         />
       </Form.Item>
 
@@ -116,7 +116,7 @@ export const AppearanceForm = ({
       >
         <input
           type="text"
-          className="mt-1 block w-full shadow-sm sm:text-sm focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md"
+          className="mt-1 block w-full shadow-sm sm:text-sm focus:ring-black focus:border-black border-gray-300 rounded-md"
         />
       </Form.Item>
 
@@ -228,7 +228,7 @@ export const AppearanceForm = ({
         <button
           type="submit"
           disabled={isUpdatingAppearance}
-          className="inline-flex items-center px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none"
+          className="inline-flex items-center px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-black hover:bg-black focus:outline-none"
         >
           {isUpdatingAppearance ? "Saving..." : "Save Changes"}
         </button>
