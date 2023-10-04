@@ -7,7 +7,7 @@ export const Cooking = () => {
           <div className="w-3 h-3 bg-gray-900 rounded-full"></div>
         </div>
         <p className="text-gray-900">Bot is cooking...</p>
-        <span className="text-gray-900">It may take some time</span>
+        <span className="text-gray-900">Get ready to eat in 3, 2, 1...</span>
       </div>
     );
   };
