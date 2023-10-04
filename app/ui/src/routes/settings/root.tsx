@@ -124,7 +124,7 @@ export default function SettingsRoot() {
                       >
                         <input
                           type="text"
-                          className="mt-1 block w-full border-gray-300 rounded-md  focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
+                          className="mt-1 block w-full border-gray-300 rounded-md  focus:ring-black focus:border-black sm:text-sm"
                         />
                       </Form.Item>
                       <Form.Item
@@ -139,7 +139,7 @@ export default function SettingsRoot() {
                       >
                         <input
                           type="email"
-                          className="mt-1 block w-full border-gray-300 rounded-md  focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
+                          className="mt-1 block w-full border-gray-300 rounded-md  focus:ring-black focus:border-black sm:text-sm"
                         />
                       </Form.Item>
                     </div>
@@ -147,7 +147,7 @@ export default function SettingsRoot() {
                       <button
                         disabled={isLoading}
                         type="submit"
-                        className="inline-flex justify-center rounded-md border border-transparent bg-indigo-600 py-2 px-4 text-sm font-medium text-white  hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
+                        className="inline-flex justify-center rounded-md border border-transparent bg-black py-2 px-4 text-sm font-medium text-white  hover:bg-black focus:outline-none focus:ring-2 focus:ring-black focus:ring-offset-2"
                       >
                         {isLoading ? "Saving..." : "Save"}
                       </button>
@@ -183,7 +183,7 @@ export default function SettingsRoot() {
                       >
                         <input
                           type="password"
-                          className="mt-1 block w-full border-gray-300 rounded-md  focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
+                          className="mt-1 block w-full border-gray-300 rounded-md  focus:ring-black focus:border-black sm:text-sm"
                         />
                       </Form.Item>
                       <Form.Item
@@ -198,7 +198,7 @@ export default function SettingsRoot() {
                       >
                         <input
                           type="password"
-                          className="mt-1 block w-full border-gray-300 rounded-md  focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
+                          className="mt-1 block w-full border-gray-300 rounded-md  focus:ring-black focus:border-black sm:text-sm"
                         />
                       </Form.Item>
                     </div>
@@ -206,7 +206,7 @@ export default function SettingsRoot() {
                       <button
                         disabled={isPasswordLoading}
                         type="submit"
-                        className="inline-flex justify-center rounded-md border border-transparent bg-indigo-600 py-2 px-4 text-sm font-medium text-white  hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
+                        className="inline-flex justify-center rounded-md border border-transparent bg-black py-2 px-4 text-sm font-medium text-white  hover:bg-black focus:outline-none focus:ring-2 focus:ring-black focus:ring-offset-2"
                       >
                         {isPasswordLoading ? "Saving..." : "Save"}
                       </button>
