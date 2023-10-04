@@ -122,7 +122,7 @@ export default function SettingsTeamsRoot() {
               <button
                 type="button"
                 onClick={() => setNewUserModal(true)}
-                className="inline-flex items-center px-3 py-1 border border-transparent text-sm font-medium rounded shadow-sm text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+                className="inline-flex items-center px-3 py-1 border border-transparent text-sm font-medium rounded shadow-sm text-white bg-black hover:bg-black focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-black"
               >
                 Add New User
               </button>
@@ -235,7 +235,7 @@ export default function SettingsTeamsRoot() {
               >
                 <input
                   type="password"
-                  className="mt-1 block w-full border-gray-300 rounded-md  focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
+                  className="mt-1 block w-full border-gray-300 rounded-md  focus:ring-black focus:border-black sm:text-sm"
                 />
               </Form.Item>
 
@@ -243,7 +243,7 @@ export default function SettingsTeamsRoot() {
                 <button
                   disabled={resetPasswordLoading}
                   type="submit"
-                  className="inline-flex justify-center rounded-md border border-transparent bg-indigo-600 py-2 px-4 text-sm font-medium text-white  hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
+                  className="inline-flex justify-center rounded-md border border-transparent bg-black py-2 px-4 text-sm font-medium text-white  hover:bg-black focus:outline-none focus:ring-2 focus:ring-black focus:ring-offset-2"
                 >
                   {resetPasswordLoading ? "Saving..." : "Save"}
                 </button>
@@ -274,7 +274,7 @@ export default function SettingsTeamsRoot() {
               >
                 <input
                   type="text"
-                  className="mt-1 block w-full border-gray-300 rounded-md  focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
+                  className="mt-1 block w-full border-gray-300 rounded-md  focus:ring-black focus:border-black sm:text-sm"
                 />
               </Form.Item>
               <Form.Item
@@ -289,7 +289,7 @@ export default function SettingsTeamsRoot() {
               >
                 <input
                   type="email"
-                  className="mt-1 block w-full border-gray-300 rounded-md  focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
+                  className="mt-1 block w-full border-gray-300 rounded-md  focus:ring-black focus:border-black sm:text-sm"
                 />
               </Form.Item>
               <Form.Item
@@ -304,7 +304,7 @@ export default function SettingsTeamsRoot() {
               >
                 <input
                   type="password"
-                  className="mt-1 block w-full border-gray-300 rounded-md  focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
+                  className="mt-1 block w-full border-gray-300 rounded-md  focus:ring-black focus:border-black sm:text-sm"
                 />
               </Form.Item>
 
@@ -312,7 +312,7 @@ export default function SettingsTeamsRoot() {
                 <button
                   disabled={createUserLoading}
                   type="submit"
-                  className="inline-flex justify-center rounded-md border border-transparent bg-indigo-600 py-2 px-4 text-sm font-medium text-white  hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
+                  className="inline-flex justify-center rounded-md border border-transparent bg-black py-2 px-4 text-sm font-medium text-white  hover:bg-black focus:outline-none focus:ring-2 focus:ring-black focus:ring-offset-2"
                 >
                   {createUserLoading ? "Saving..." : "Save"}
                 </button>
