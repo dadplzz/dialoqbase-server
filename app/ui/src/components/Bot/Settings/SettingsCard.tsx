@@ -163,7 +163,7 @@ export const SettingsCard = ({
                 >
                   <input
                     type="text"
-                    className="mt-1 block w-full sm:text-sm focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md"
+                    className="mt-1 block w-full sm:text-sm focus:ring-black focus:border-black border-gray-300 rounded-md"
                   />
                 </Form.Item>
 
@@ -215,7 +215,7 @@ export const SettingsCard = ({
                     min={0}
                     max={1}
                     step={0.1}
-                    className="mt-1 block w-full rounded-md border-gray-300 py-2 pl-3 pr-10 text-base focus:border-indigo-500 focus:outline-none focus:ring-indigo-500 sm:text-sm"
+                    className="mt-1 block w-full rounded-md border-gray-300 py-2 pl-3 pr-10 text-base focus:border-black focus:outline-none focus:ring-black sm:text-sm"
                   />
                 </Form.Item>
 
@@ -258,7 +258,7 @@ export const SettingsCard = ({
                   ]}
                 >
                   <textarea
-                    className="mt-1 block w-full shadow-sm sm:text-sm focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md"
+                    className="mt-1 block w-full shadow-sm sm:text-sm focus:ring-black focus:border-black border-gray-300 rounded-md"
                     rows={5}
                     placeholder=""
                   />
@@ -303,7 +303,7 @@ export const SettingsCard = ({
                   ]}
                 >
                   <textarea
-                    className="mt-1 block w-full sm:text-sm focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md"
+                    className="mt-1 block w-full sm:text-sm focus:ring-black focus:border-black border-gray-300 rounded-md"
                     rows={5}
                     placeholder=""
                   />
@@ -323,7 +323,7 @@ export const SettingsCard = ({
             <div className="mt-3 text-right">
               <button
                 type="submit"
-                className="inline-flex justify-center rounded-md border border-transparent bg-indigo-600 py-2 px-4 text-sm font-medium text-white  hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
+                className="inline-flex justify-center rounded-md border border-transparent bg-black py-2 px-4 text-sm font-medium text-white  hover:bg-black focus:outline-none focus:ring-2 focus:ring-black focus:ring-offset-2"
               >
                 {isLoading ? "Saving..." : "Save"}
               </button>
