@@ -51,7 +51,7 @@ export function createChatButton(
   };
 
   let chatButtonStyle: ChatButtonStyle = chatButton.style;
-  chatButtonStyle.backgroundColor = "#9b59b6";
+  chatButtonStyle.backgroundColor = "#1B253B";
   chatButtonStyle.color = "white";
   chatButtonStyle.width = "50px";
   chatButtonStyle.height = "50px";
