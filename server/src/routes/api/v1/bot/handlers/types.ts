@@ -64,5 +64,8 @@ export interface UpdateBotById {
     streaming: boolean;
     showRef: boolean;
     use_hybrid_search: boolean;
+    bot_protect: boolean;
+    use_rag: boolean;
+    bot_model_api_key: string
   };
 }
